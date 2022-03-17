@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
 contract WhiteListing {
     IERC20 public _token;
-    bytes32 public root =  0x0e517cb2fd5513ea8034779d9adabc2444b8e38901f45adc9d93744a4e35c2e4;
+    bytes32 public root =   0x87ae53e2b2469c1920a68f15b379ca9ff04ae072d4992f627bc1f40b6966458c;
       constructor(address token){
         _token = IERC20(token);
     }
